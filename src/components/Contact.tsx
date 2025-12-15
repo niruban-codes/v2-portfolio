@@ -128,8 +128,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Customized by <span>{config.developer.fullName}</span> | Original
-              Design by [Repo Author]
+              Built by <span>{config.developer.fullName}</span>
             </h2>
             <h5>
               <MdCopyright /> {new Date().getFullYear()}
